@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <title>Desafio LabSEC</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <section class="py-auto text-center container">
+        <div class="row py-lg-5">
+            <h1 class="fw-light">Desafio LabSEC | Dev Backend <br />Candidato Marcos Tomaszewski</h1>
+            <p class="lead fs-6 text text-muted">Ao clicar em <i>"Gerar"</i> o app gerará um certificado auto-assinado para <i>"Nome do Titular"</i>,<br /> válido a partir de <i>"Validade Inicial"</i> com data de vencimento <i>"Validade Final"</i>;<br /><br />
+                Caso seja escolhida a opção <i>"Consultar"</i>, será feita uma busca no banco de dados por certificados que se encontrem válidos durante algum período entre <i>"Validade Inicial"</i> e <i>"Validade Final"</i> e que tenham sido emitidos para <i>"Nome do Titular"</i>, caso algum desses campos esteja em branco, ele será ignorado na busca.<br/>
+                Após realizada a consulta, pode ser realizada a remoção de registros do banco, basta selecionar os certificados a excluir clicando em <i>Remover</i> e confirmar acima.
+                
+            </p>
+        </div>
+    </section>
+    <div id="formulario">
+    </div>
+  </body>
+</html>
